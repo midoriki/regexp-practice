@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build:deploy": "vue-cli-service build && cp -RT dist ../app/regexp",
+    "build:deploy": "vue-cli-service build && rm -rf ../app/regexp/* && cp -RT dist ../app/regexp",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
