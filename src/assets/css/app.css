@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Nunito|Source+Code+Pro|Ubuntu');
+
+#app {
+   font-family: 'Source Code Pro', 'Nunito','Noto Sans';
+}
+
+li {
+   list-style-type: none;
+}
+
+.text-blue, not_match {
+   color: blue;
+}
+
+.text-green, match_correct, not_match match_correct {
+   color: green;
+   border: solid 0.1px;
+}
+
+.text-red, match_incorrect {
+   color: red;
+   text-decoration: underline red;
+}
+
+p {
+   display: inline-block;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
